@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интерактивный Проект</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Интерактивный Проект</h1>
+
+    <!-- FileReader API -->
+    <section>
+        <h2>Загрузка файлов с использованием FileReader API</h2>
+        <input type="file" id="fileInput" />
+        <div id="fileContent"></div>
+    </section>
+
+    <!-- Drag and Drop API -->
+    <section>
+        <h2>Перетаскивание файлов на веб-страницу</h2>
+        <div id="dropArea" class="drop-area">Перетащите файлы сюда</div>
+        <div id="dropContent"></div>
+    </section>
+
+    <!-- Управление Устройствами -->
+    <section>
+        <h2>Управление Устройствами</h2>
+        <button id="geolocationBtn">Получить местоположение</button>
+        <p id="location"></p>
+        <button id="cameraBtn">Использовать веб-камеру</button>
+        <video id="video" width="400" height="300" autoplay></video>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
